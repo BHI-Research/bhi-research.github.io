@@ -1,0 +1,9 @@
+site_name: BHI-Research
+theme:
+  name: 'material'
+  palette:
+    primary: 'blue'
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/BHI-Research'
