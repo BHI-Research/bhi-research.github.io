@@ -2,7 +2,7 @@ site_name: BHI-Research
 theme:
   name: 'material'
   palette:
-    primary: 'blue'
+    primary: 'yellow'
 docs_dir: 'entries'
 site_dir: 'docs'
 extra:
