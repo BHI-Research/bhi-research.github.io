@@ -3,6 +3,8 @@ theme:
   name: 'material'
   palette:
     primary: 'blue'
+docs_dir: 'entries'
+site_dir: 'docs'
 extra:
   social:
     - type: 'github'
