@@ -1,0 +1,11 @@
+site_name: BHI-Research
+theme:
+  name: 'material'
+  palette:
+    primary: 'yellow'
+docs_dir: 'entries'
+site_dir: 'docs'
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/BHI-Research'
