@@ -1,6 +1,6 @@
 site_name: BHI-Research
 theme:
-  name: 'material'
+  name: 'material'  
   palette:
     primary: 'yellow'
 docs_dir: 'entries'

@@ -3,17 +3,22 @@
 Create a virtualenv and install dependencies:
 
 ```
-pip install mkdocs mkdocs-material
+virtualenv --system-site-packages -p python3 ./venv-mkdocs
+source venv-mkdocs/bin/activate
+(venv-mkdocs) $ pip install --upgrade pip
+(venv-mkdocs) $ pip install mkdocs mkdocs-material
+
+
 ```
 
 Run the server:
 ```
-mkdocs serve
+(venv-mkdocs) $ mkdocs serve
 ```
 
 Generate static site:
 ```
-mkdocs build
+(venv-mkdocs) $ mkdocs build
 ```
 
 More info:
