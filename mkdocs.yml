@@ -1,10 +1,14 @@
-site_name: BHI-Research
+
+# Project information
+site_name: 'BHI-Research'
+site_description: 'A multidisciplinary research group located at Bahía Blanca Argentina'
+site_url: 'https://bhi-research.github.io'
+
 theme:
-  name: 'material'  
+  name: 'material'
   palette:
     primary: 'yellow'
 docs_dir: 'entries'
-site_dir: 'docs'
 extra:
   social:
     - type: 'github'
