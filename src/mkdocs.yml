@@ -8,6 +8,8 @@ theme:
   name: 'material'
   palette:
     primary: 'yellow'
+  logo: 'images/logo.png'
+  favicon: 'assets/images/favicon.png'
 docs_dir: 'entries'
 extra:
   social:
