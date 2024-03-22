@@ -1,0 +1,19 @@
+# Project information
+site_name: "BHI-Research"
+site_description: "Multidisciplinary research group located at Bahía Blanca city, Argentina"
+site_url: https://bhi-research.github.io/
+
+
+nav:
+  - About: index.md
+
+# Configuration
+theme:
+  name: material
+  logo: images/logo.png
+  favicon: images/favicon.ico
+  palette:
+    primary: white
+    accent: indigo
+
+
