@@ -1,6 +1,6 @@
-# Javier Iparraguirre >> Personal site
+# BHI research site
 
-See the site live at [https://javierip.github.io/](https://javierip.github.io/)
+See the site live at [https://bhi-research.github.io/](https://bhi-research.github.io/)
 
 ## Related Links
 
