@@ -4,6 +4,16 @@ BHI-Research is a multidisciplinary research group located at Bahía Blanca city
 
 ## Projects
 
+### **nano-JEPA**: Joint Embedding Predictive Architecture that runs on a personal computer
+
+* Paper title: **nano-JEPA: Democratizing Video Understanding with Personal Computers**
+* Full text [here](https://drive.google.com/file/d/11vOMCMP7_4FWqvXLhkEkX-7KgNgwdsij/view)
+* Source code repository at [GitHub](https://github.com/BHI-Research/nano-jepa)
+
+### **nano-datasets**: custom subsets of big public datasets
+
+* Source code repository at [GitHub](https://github.com/BHI-Research/nano-datasets)
+
 ### Accelerated Optimization
 
 * [PSO-JAX: An accelerated Particle Swarm Optimization tool that uses JAX key component](https://github.com/BHI-Research/PSO-JAX)
