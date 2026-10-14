@@ -1,8 +1,11 @@
 # Project information
 site_name: "BHI-Research"
-site_description: "Multidisciplinary research group located at Bahía Blanca city, Argentina"
+site_description: "Multidisciplinary research group at UTN Facultad Regional Bahía Blanca, Argentina, working on Computer Vision, Machine Learning, and High Performance Computing"
 site_url: https://bhi-research.github.io/
 
+# Repository
+repo_url: https://github.com/BHI-Research
+repo_name: BHI-Research
 
 nav:
   - About: index.md
@@ -12,8 +15,40 @@ theme:
   name: material
   logo: images/logo.png
   favicon: images/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.top
+    - toc.follow
+  # Colors come from the group logo, see docs/stylesheets/extra.css.
+  # Light mode is the default; visitors can switch to dark mode.
   palette:
-    primary: white
-    accent: indigo
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
 
+extra_css:
+  - stylesheets/extra.css
 
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/BHI-Research
